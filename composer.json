@@ -1,0 +1,16 @@
+{
+    "name": "tomas/wordpress_test",
+    "require": {
+        "johnpbloch/wordpress": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tomas\\WordpressTest\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "johnpbloch/wordpress-core-installer": true
+        }
+    }
+}
