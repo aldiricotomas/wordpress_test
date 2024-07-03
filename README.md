@@ -13,3 +13,4 @@ $ composer install
 
 ```
 
+Luego tendrían que levantar el servidor y la base de datos, podrían hacerlo con Apache o lo que prefieran.
